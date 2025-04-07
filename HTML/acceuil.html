@@ -4,25 +4,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The District - Acceuil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../CSS/normalize.CSS" />
     <link rel="stylesheet" href="../CSS/style.css" />
   </head>
   <body>
-<header>
-<img src="../Document/the_district_brand/logo_transparent.png" alt="Logo" title="Logo du restaurant" class="logo">
-<nav>
-  <a href="../HTML/acceuil.html">Acceuil</a>
-  <a href="../HTML/acceuil.html">Catégorie</a>
-  <a href="../HTML/acceuil.html">Plats</a>
-  <a href="../HTML/acceuil.html">Contact</a>
+    <header>
+      <nav class="navbar bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../Document/the_district_brand/logo_transparent.png"
+              alt="Logo"
+              title="Logo"
+              class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                The District
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Acceuil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Plats</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Catégorie
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../HTML/Page_Erreur.HTML"
+                        >Asian Food</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../HTML/Page_Erreur.HTML"
+                        >Burger</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../HTML/Page_Erreur.HTML"
+                        >Pasta</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../HTML/Page_Erreur.HTML"
+                        >Pizza</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../HTML/Page_Erreur.HTML"
+                        >Salade</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar Search">
+        <form class="d-flex position-absolute top-50 start-50 translate-middle " role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
 
-</nav>
-</header>
-<main>
-
-</main>
-<footer>
-
-</footer>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../Js/script.js"></script>
   </body>
 </html>

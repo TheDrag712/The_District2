@@ -1,8 +1,31 @@
-header {
-  background-color: #970747;
-  padding: 0.5rem 2rem;
+img.logo {
+  height: 10vh;
 }
 
-img {
-  height: 5rem;
+body{
+  background-color: #D6CFFF;
+}
+
+body.erreur {
+  background-image: url(../Document/Site_construction.jpg);
+}
+
+body,
+header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+header,
+main,
+footer {
+  gap: 8px;
+}
+
+nav.Search {
+  padding: 6vh;
+  background: url(../Document/bg.jpg) #47b4d1 no-repeat;
+  background-size: contain;
 }
